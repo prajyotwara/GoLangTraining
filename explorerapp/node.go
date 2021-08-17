@@ -26,18 +26,16 @@ func AddElement(rootNode *Node, value int64) {
 func TraverseAndPrintNodeValues(rootNode *Node) {
 	//Traverse and print each value
 	//temp pointing to root. Then you traverse till Next pointer is not nil
-	temp := *rootNode
-	for temp.Next != nil {
+	temp := rootNode
+	for temp != nil {
 		fmt.Printf("%v -> ", temp.Value)
-		temp = *temp.Next
+		temp = temp.Next
 	}
-	fmt.Println(temp.Value)
 
 }
 
 func LinkedListOps() {
 	// OpsOnNode()
-
 	rootNode := NewNode(5)
 	AddElement(rootNode, 10)
 	AddElement(rootNode, 20)

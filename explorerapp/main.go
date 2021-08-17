@@ -1,6 +1,13 @@
 package main
 
 func main() {
+	// Day1()
+	// Day2()
+	Day3()
+
+}
+
+func Day1() {
 	// fmt.Println("Hello Go")
 	// VariablesAndPointer()
 
@@ -9,9 +16,16 @@ func main() {
 	// services.SendEmail(email)
 
 	// practices.Practice()
+
+}
+func Day2() {
 	// GoLangForLoopForms()
 	//GoKeywordDemo()
 	// ConcurrencyWithWaitGroupExample()
-	LinkedListOps()
-
+	//LinkedListOps()
+}
+func Day3() {
+	GoArrayAndSlices()
+	GoSlices()
+	GoSlicesRange()
 }
