@@ -4,8 +4,13 @@ func main() {
 	// CounterInterfaceDemo()
 	// RepoDemoForInterface()
 	// LoggerUsage()
-	ServerLoggerOperations()
+	// ServerLoggerOperations()
+	SimpleClosureDemo()
+	ClosureDemoWithAdder()
 }
+
+/*
+
 func ServerLoggerOperations() {
 	logger := NewLogger()
 	server := NewServer("Info server", &logger)
@@ -29,7 +34,6 @@ func LoggerUsage() {
 	logger.DrainToConsole()
 }
 
-/*
 func RepoDemoForInterface() {
 	fileRepo := NewHotelRepoFile("data/golddata.json")
 	HotelOperations(&fileRepo)
